@@ -1,0 +1,19 @@
+Agha Idam Walter - Project Report
+
+=============Project Work Log====================
+
+            Time Spent
+   Date       (hours)   Description of Work
+----------  ----------  -----------------------------------------------
+2026-02-05      1.5     Brainstormed project idea and defined real-world military logistics problem
+2026-02-05      1.0     Wrote and refined project proposal document
+2026-02-06      2.0     Designed program structure and planned required functions
+2026-02-06      1.5     Researched CSV file handling and dictionary storage in Python
+2026-02-07      2.5     Wrote data-reading function (read_dictionary) and core calculation functions
+2026-02-07      2.0     Implemented determine_readiness and generate_unit_report functions
+2026-02-08      1.5     Developed main() function and connected CSV data to program logic
+2026-02-08      1.5     Created units.csv and supplies.csv test data files
+2026-02-09      2.0     Wrote pytest test functions for calculation and readiness logic
+2026-02-09      2.0     Debugged logic errors and tested multiple terrain and supply scenarios
+2026-02-10      1.0     Improved output formatting and verified final program behavior
+2026-02-10      1.0     Final review, cleanup of comments, and preparation for submission
