@@ -1,0 +1,73 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+
+Nigerian Army Logistics and Deployment Readiness Analyzer
+
+2. What real-world problem will your program address or help to solve?
+
+This program addresses the challenge of military logistics and operational readiness.
+In real-world military operations, commanders must determine whether a unit has sufficient food, fuel, and ammunition to sustain a deployment under different terrain conditions.
+
+The program will help analyze whether selected Nigerian Army units are:
+
+    - Fully ready for deployment
+    - Partially ready
+    - Not ready
+
+based on available supply data and unit size. This simulates real logistical decision-making in military planning.
+
+3. What will you learn from developing this program?
+
+By developing this program, I will learn:
+
+    - How to design a medium-sized Python program using multiple well-organized functions
+    - How to read and process CSV files
+    - How to store and retrieve data using lists and dictionaries
+    - How to write testable functions and verify correctness using pytest
+    - How to model a real-world problem and convert it into logical program steps
+    - How to improve code readability, structure, and error handling
+
+4. What Python modules will your program use?
+
+The program will use the following Python modules:
+
+    - csv :- to read unit and supply data from CSV files
+    - datetime :- to handle deployment dates and timelines
+    - pytest :- to test selected program functions
+    - math :- for calculations if needed
+    - os :- for file handling during testing
+
+5. List the names of functions you will need?
+
+The program will be divided into multiple functions, each performing a single task:
+
+    - read_dictionary(filename, key_index)
+    - calculate_food_status(soldiers, food_days)
+    - calculate_fuel_status(fuel_liters, terrain)
+    - calculate_ammo_status(ammo_units, soldiers)
+    - determine_readiness(food_ok, fuel_ok, ammo_ok) 
+    - generate_unit_report(unit_data, supply_data)
+    - main()
+
+Most of these functions will take parameters and return values, making them reusable and easy to test.
+
+6. List the names of the test functions you will write.
+
+The following test functions will be written and executed using pytest:
+
+    - test_calculate_food_status()
+    - test_calculate_fuel_status()
+    - test_calculate_ammo_status()
+    - test_determine_readiness()
+
+These tests will ensure that the program's core logic works correctly under different conditions.

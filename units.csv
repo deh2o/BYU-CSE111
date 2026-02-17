@@ -1,0 +1,6 @@
+unit_id,unit_name,soldiers,terrain
+NA01,1st Infantry Battalion,450,forest
+NA02,82 Division,600,urban
+NA03,7 Division,520,desert
+NA04,3rd Armoured Brigade,380,forest
+NA05,Special Forces Group,250,urban
